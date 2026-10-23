@@ -1,0 +1,42 @@
+{
+  "build_script": "vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "Audiowide",
+        "source": "ofl/audiowide/OFL.txt",
+        "spdx": "OFL-1.1"
+      }
+    ],
+    "font_files": 2,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/2d4908f57f63037c.css",
+        "sha256": "b5384e344a5c34d65a0208f26931b6b14b1e9a64e4881c4f6bc849ff018fa3fb",
+        "url": "https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      }
+    ],
+    "total_font_bytes": 21308,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "alecs007/TypeBlaster",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/2d4908f57f63037c.css",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/files/54ca9a9f1a8a6d9b8e74.woff2",
+    ".packaging/google-fonts/files/ef2c05695a2378334f38.woff2",
+    ".packaging/google-fonts/licenses/Audiowide-OFL-1.1.txt",
+    "index.html"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "b76fd7ebe4415e4fda6038fb2e6ec797494230dd"
+}
